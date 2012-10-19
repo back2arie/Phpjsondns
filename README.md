@@ -23,5 +23,5 @@ For example:
 
 
 ### Online demo
-http://azhari.harahap.us/phpjsondns
+http://azhari.harahap.us/phpjsondns/demo
 

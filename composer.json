@@ -1,4 +1,18 @@
 {
+    "name" : "back2arie/Phpjsondns",
+    "type" : "library",
+    "description" : "This tool helps you to create a 'DNS server' through HTTP",
+    "keywords" : ["url", "json", "php", "dns", "domain"],
+    "homepage" : "https://github.com/back2arie/Phpjsondns",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name" : "Azhari Harahap",
+            "email" : "azhari@harahap.us",
+            "homepage" : "http://azhari.harahap.us",
+            "role" : "Developer"
+        }
+    ],
     "require" : {
         "php" : ">=5.3"
     }

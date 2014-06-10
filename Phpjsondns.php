@@ -121,13 +121,13 @@ class Phpjsondns {
         echo json_encode($data);
     }
 
-    public function get($hostname = '', $type = '')
+    public function get($hostname = '', $type = '', $format = 'json')
     {
         $this->setHostname($hostname);
         $this->setType($type);
         $this->checkType();
         $this->dnsQuery();
         $result = $this->getResult();
-        return $this->toJson($result);
+        return ($format == 'json') ? $this->toJson($result) : $result;
     }
 }
